@@ -14,7 +14,7 @@ str:	.asciz "Sesion 1 Ejercicio 2"
 	
 bucle:
 	#-- Incrementar el registro x5 en una unidad
-	addi x5, x5, 2  #-- x5 = x5 + 1
+	addi x5, x5, 2  #-- x5 = x5 + 2
 	
 	#-- Repetir indefinidamente		
 	b bucle
