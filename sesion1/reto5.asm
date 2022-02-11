@@ -13,6 +13,7 @@ a:
 	addi x3,x3,-1
 	bgt x3,x0, a
 	
+	#-- Llamada al sistema para salir del programa
 	li a7, 10
 	ecall
 	

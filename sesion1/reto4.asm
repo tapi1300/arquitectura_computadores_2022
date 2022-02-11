@@ -15,7 +15,7 @@ main:
 	#-- Incrementar el registro x6 en una unidad negativa (resta 1)
 	addi x6, x6, -1  #-- x6 = x6 + (-1)
 
-	#-- Llamada al sistema
+	#-- Llamada al sistema para salir del programa
 	li a7, 10
 	ecall
 	

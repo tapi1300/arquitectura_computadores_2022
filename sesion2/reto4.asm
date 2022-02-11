@@ -28,4 +28,8 @@ main:
 	addi x8, x8, -30	#-- d = (d - a + e + 3) + (-30)
 				
 	sub x10, x6, x8		#-- f = (a + b) + c(d - a) + e + 3
+
+	#-- Llamada al sistema para salir del programa
+	li a7, 10
+	ecall
 	

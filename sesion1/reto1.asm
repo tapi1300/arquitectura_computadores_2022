@@ -15,7 +15,7 @@ main:
 	li x7, 7
 	li x8, 8
 
-	#-- Llamada al sistema 1
+	#-- Llamada al sistema para salir del programa
 	li a7, 10
 	ecall
 
