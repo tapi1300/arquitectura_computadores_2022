@@ -9,8 +9,6 @@
 str:	.asciz "Sesion 3 Ejercicio 1"
 
 	.text
-
-	
 main:
 	#-- Inicializamos los registros x5,x6,x7,x8 a 5,6,7,8 respectivamente
 	li x5, 5
