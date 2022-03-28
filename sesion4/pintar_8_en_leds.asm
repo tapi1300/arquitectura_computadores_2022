@@ -25,7 +25,7 @@ str:	.asciz "Sesion 4"
 	
 	.text
 main:
-	#-- Usamos el regitro x5 como puntero de acceso al puerto
+	#-- Usamos el registro x5 como puntero de acceso al puerto
 	#-- Cargamos en x5 la direccion de memoria del puerto
 	li x5, DISP_R
 	
