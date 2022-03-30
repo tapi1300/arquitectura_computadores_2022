@@ -5,12 +5,8 @@
 	.data
 str:	.asciz "Sesion 5 Ejercicio 2"
 
-	#-- Servicio imprimir int
-	.eqv PRINT_INT 1	#-- float-2, double-3, string-4, char-11
-	#-- Servicio leer int
-	.eqv READ_INT 5		#-- float-6, double-7, string-8, char-12
-	#-- Servicio exit
-	.eqv EXIT 10
+	#-- Servicios incluidos
+	.include "servicios.asm"
 	
 	.text
 main:

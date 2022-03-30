@@ -5,9 +5,8 @@
 	.data
 str:	.asciz "Sesion 5 Ejercicio 1"
 
-	
-	#-- Servicio Exit
-	.eqv EXIT 10
+	#-- Servicios incluidos
+	.include "servicios.asm"
 	
 	#-- Definicion de constantes (A - C) y variable final (F).
 	#-- Les pongo la barrabaja porque "B" no se puede definir (existe la instrucción "b")

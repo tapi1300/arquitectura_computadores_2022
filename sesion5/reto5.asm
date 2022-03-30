@@ -8,10 +8,8 @@ str:	.asciz "Sesion 5 Ejercicio 5"
 	#--- Direccion donde está mapeado el display derecho
 	.eqv DISP_R 0xFFFF0010
 
-	#-- Servicio leer int
-	.eqv READ_INT 5
-	#-- Servicio exit
-	.eqv EXIT 10
+	#-- Servicios incluidos
+	.include "servicios.asm"
 	
 	.text
 main:

@@ -5,9 +5,8 @@
 	.data
 str:	.asciz "Sesion 5 Ejercicio 8"
 
-	#-- Servicio imprimir int y char
-	.eqv PRINT_INT 1	
-	.eqv PRINT_CHAR 11
+	#-- Servicios incluidos
+	.include "servicios.asm"
 	
 fib0:	.word 0
 fib1:	.word 1
