@@ -2,12 +2,11 @@
 
 #-- Programa para probar cosas
 	.include "servicios.asm"
-	.data
-str:	.asciz "Probador oficial"
+        .data
+ca:  .string "123456789"
 
-	.text
-main:
-
-	#-- Llamada al sistema para salir del programa
-	li a7, EXIT
-	ecall
+       .text
+	la a0, ca
+	addi a0, a0, 3
+	li a1, 'A'
+	sb a1, 1(a0)
